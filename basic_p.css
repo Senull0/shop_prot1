@@ -1,0 +1,170 @@
+/* Basic styles */
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: 0;
+    box-sizing: 0;
+    list-style-type: none;
+}
+
+
+/* Navigation menu style */
+.nav {
+    background-color: antiquewhite;
+    height: 120px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Upper parts style */
+.Up_header_right {
+    display: inline-block;
+    position: relative;
+    bottom: 105px;
+    left:46%;
+    margin-right: 50px;
+
+}
+
+.Up_header_left {
+    display: inline-block;
+    position: relative;
+    bottom: 105px;
+    right:52%;
+}
+
+.header_links {
+    position:relative;
+    bottom:2px;
+    margin-left: 10px;
+    color:black;
+    
+}
+
+.header_links:hover {
+    color:gray;
+}
+
+.img_header {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+
+
+/* Bottom parts style (+Shop name style) */
+.Oulu_bikes {
+    color:black;
+    font-size: 36px;
+    font-family: Oregano;
+    letter-spacing: 8px;
+    cursor: pointer;
+    
+}
+
+.Bottom_header {
+    display: inline-block;
+    padding: 18px;
+    margin-left: 22px;
+    font-size: 24px;
+    font-family: Quicksand;
+}
+
+/* Style for all links (making them black) */
+.links_color {
+    color: black;
+}
+
+.links_color:hover {
+    color: gray;
+}
+
+
+/* Background + since label */
+.bg {
+    background-image: url("https://i.ibb.co/rsq1TzY/bgimg.jpg");
+    height: 100%; 
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.since {
+    position: absolute;
+    bottom: 0;
+    left:46%;
+    font-size: 36px;
+    color:white;
+    font-family: Oregano;
+}
+
+/* Resizing */
+@media (max-width: 800px) {
+    .Oulu_bikes {
+        font-size: 20px;
+    }
+
+    .Bottom_header {
+        display: inline-block;
+        padding: 9px;
+        margin-left: 8px;
+        font-size: 16px;
+        font-family: Quicksand;
+    }
+
+    .img_header {
+        width: 12px;
+        height: 12px;
+        cursor: pointer;
+    }
+
+    .nav {
+        background-color: antiquewhite;
+        height: 90px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .Up_header_right {
+        display: inline-block;
+        position: relative;
+        bottom: 50px;
+        left:46%;
+        margin-right: 10px;
+    
+    }
+    
+    .Up_header_left {
+        display: inline-block;
+        position: relative;
+        bottom: 50px;
+        right:52%;
+    }
+    
+    .header_links {
+        position:relative;
+        bottom:2px;
+        margin-left: 10px;
+        color:black;
+        
+    }
+
+    
+}
+
+
+
+/* Adding custom fonts */
+@font-face {
+
+    font-family: Quicksand;
+    src: url(Quicksand-Regular.ttf);
+}
+
+@font-face {
+    font-family: Oregano;
+    src: url(Oregano-Regular.ttf);
+}
+

@@ -1,0 +1,314 @@
+/* Basic styles */
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: 0;
+    box-sizing: 0;
+    list-style-type: none;
+}
+
+
+/* Navigation menu style */
+.nav {
+    background-color: antiquewhite;
+    height: 120px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Upper parts style */
+.Up_header_right {
+    display: inline-block;
+    position: relative;
+    bottom: 105px;
+    left:46%;
+    margin-right: 50px;
+
+}
+
+.Up_header_left {
+    display: inline-block;
+    position: relative;
+    bottom: 105px;
+    right:52%;
+}
+
+.header_links {
+    position:relative;
+    bottom:2px;
+    margin-left: 10px;
+    color:black;
+    
+}
+
+.header_links:hover {
+    color:gray;
+}
+
+.img_header {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+
+
+/* Bottom parts style (+Shop name style) */
+.Oulu_bikes {
+    color:black;
+    font-size: 36px;
+    font-family: Oregano;
+    letter-spacing: 8px;
+    cursor: pointer;
+    
+}
+
+.Bottom_header {
+    display: inline-block;
+    padding: 18px;
+    margin-left: 22px;
+    font-size: 24px;
+    font-family: Quicksand;
+}
+
+/* Style for all links (making them black) */
+.links_color {
+    color: black;
+}
+
+.links_color:hover {
+    color: gray;
+}
+
+.get_back_img {
+    width: 22px;
+    height: 22px;
+    margin-top: 10px;
+    margin-left: 2%;
+}
+
+
+
+/* Main sections style */
+.section_main {
+    margin-left: 10%;
+    margin-top: 3%;
+    width: 80%;
+    height: 500px;
+}
+
+.section1 {
+    float:left;
+    width: 40%;
+    height: 480px;
+    border: 1px solid #777C7F;
+    
+}
+
+.section2 {
+    float: right;
+    width: 45%;
+    height: 480px;
+    border: 1px solid #777C7F;
+}
+
+/* product image style */
+.img {
+    margin-top: 10%;
+    width: 100%;
+    
+}
+
+
+/* buttons style */
+.add_cart {
+    background-color: #6FAE76;
+    color: white;
+    padding: 12px;
+    margin-left: 30%;
+    text-align: center;
+    font-family: Rubik_mn;
+    font-size: 17px;
+    
+}
+
+.add_cart:hover {
+    background-color: white;
+    color: #6FAE76;
+    border: 1px solid #6FAE76;
+}
+
+
+
+/* Product description style */
+.about_desc {
+    border: 1px solid;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Hmt;
+    padding: 5px;
+    margin-left:20%;
+    margin-right: 20%;
+    margin-top: 6%;
+    
+}
+
+.text_desc_1 {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom:3%;
+    font-family: Hat;
+    font-size: 15px;
+}
+
+.lines {
+    border-top: 1px solid;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+}
+
+.text_desc_2 {
+    text-align: center;
+    font-size: 16px;
+    font-family: Hmt;
+    margin-top: 2%;
+}
+
+.text_desc_3 {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 14px;
+    color: #A9A9A9
+}
+
+@media (max-width: 1400px) {
+    .about_desc {
+        font-size: 14px;
+    }
+    
+    .text_desc_1 {
+        font-size: 12px;
+    }
+    .text_desc_2 {
+        font-size: 12px;
+    }
+    .text_desc_3 {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .add_cart {
+    background-color: #6FAE76;
+    color: white;
+    padding: 10px;
+    margin-left: 25%;
+    text-align: center;
+    font-family: Rubik_mn;
+    font-size: 12px;
+    }
+    
+}
+
+
+/* Resizing */
+@media (max-width: 800px) {
+    .Oulu_bikes {
+        font-size: 20px;
+    }
+
+    .Bottom_header {
+        display: inline-block;
+        padding: 9px;
+        margin-left: 8px;
+        font-size: 16px;
+        font-family: Quicksand;
+    }
+
+    .img_header {
+        width: 12px;
+        height: 12px;
+        cursor: pointer;
+    }
+
+    .nav {
+        background-color: antiquewhite;
+        height: 90px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .Up_header_right {
+        display: inline-block;
+        position: relative;
+        bottom: 50px;
+        left:46%;
+        margin-right: 10px;
+    
+    }
+    
+    .Up_header_left {
+        display: inline-block;
+        position: relative;
+        bottom: 50px;
+        right:52%;
+    }
+    
+    .header_links {
+        position:relative;
+        bottom:2px;
+        margin-left: 10px;
+        color:black;
+        
+    }
+
+}
+
+
+
+/* Adding custom fonts */
+@font-face {
+
+    font-family: Quicksand;
+    src: url(Quicksand-Regular.ttf);
+}
+
+@font-face {
+    font-family: Oregano;
+    src: url(Oregano-Regular.ttf);
+}
+
+@font-face {
+
+    font-family: Rubik_reg;
+    src: url(Rubik-Regular.ttf);
+}
+
+@font-face {
+    font-family: Rubik_semib;
+    src: url(Rubik-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Rubik_med;
+    src: url(Rubik-Medium.ttf);
+}
+
+@font-face {
+    font-family: Rubik_mn;
+    src: url(RubikMonoOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Hat;
+    src: url(RedHatDisplay-Light.ttf);
+}
+
+@font-face {
+    font-family: Hmt;
+    src: url(RedHatDisplay-Medium.ttf);
+}
+
